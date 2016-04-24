@@ -10,6 +10,7 @@ namespace Distance_In_Labyrinth
         Given a starting position (*) calculate and fill in the array the minimal distance 
         from this position to any other cell in the array. Use "u" for all unreachable cells.
     */
+
     class Cell
     {
         public Cell(int row, int col, int step)

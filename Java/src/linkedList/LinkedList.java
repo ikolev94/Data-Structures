@@ -1,4 +1,4 @@
-package linkedListDemo;
+package linkedList;
 
 import java.util.Iterator;
 
@@ -57,13 +57,9 @@ public class LinkedList<T> implements Iterable<T> {
 		}
 	}
 
-	public Node<T> getHead() {
-		return this.head;
-	}
-
 	@Override
 	public Iterator<T> iterator() {
-		return new LinkedListIterator<T>(this);
+		return new LinkedListIterator<T>(this.head);
 	}
 
 }

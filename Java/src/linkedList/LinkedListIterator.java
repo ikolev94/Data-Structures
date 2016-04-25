@@ -1,15 +1,13 @@
-package linkedListDemo;
+package linkedList;
 
 import java.util.Iterator;
 
 public class LinkedListIterator<T> implements Iterator<T> {
 
-	private LinkedList<T> list;
 	private Node<T> currentNode;
 
-	public LinkedListIterator(LinkedList<T> list) {
-		this.list = list;
-		this.currentNode = list.getHead();
+	public LinkedListIterator(Node<T> head) {
+		this.currentNode = head;
 	}
 
 	@Override

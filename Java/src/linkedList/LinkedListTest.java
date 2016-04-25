@@ -1,4 +1,4 @@
-package linkedListDemo;
+package linkedList;
 
 public class LinkedListTest {
 

@@ -6,6 +6,15 @@ import java.util.Scanner;
 
 public class RideTheHorse {
 
+	/*
+    You are given a matrix N x M and a start position.Your task is to traverse the matrix
+    using the movements of the horse from the chess game and marking where you have gone.
+    1.	Visit the start position and assign 1 in it.
+    2.	If a position holds the value V, assign V+1 in all not-visited cells which can
+    be reached by movement of the horse from this position.
+    3.	Repeat the previous step until all positions are visited.
+    */
+	
 	static int[][] board;
 
 	public static void main(String[] args) {
